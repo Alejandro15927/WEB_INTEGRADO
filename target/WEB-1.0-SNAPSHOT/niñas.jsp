@@ -1,6 +1,6 @@
 <%-- 
-    Document   : niños
-    Created on : 27 oct. 2024, 02:30:08
+    Document   : niñas
+    Created on : 28 oct. 2024, 13:46:00
     Author     : USER
 --%>
 
@@ -35,74 +35,74 @@
 
     </div>
 
+
     <br><br><br>
-        <center><h1>Verano 2023 - Ropa Niños</h1></center>
+        <center><h1>Verano 2023 - Ropa Niñas</h1></center>
     </div>
    
-
     <section class="contenedor">
       <!-- Contenedor de elementos -->
       <div class="contenedor-items">
           <div class="item">
-              <span class="titulo-item">CONJUNTO HARVEST POLO MANGA LARGA Y BUZO</span>
-              <img src="<%= request.getContextPath() %>/Img/NIÑOS/Nino1.jpeg" alt="" class="img-item">
-              <span class="precio-item">S/49.99 soles</span>
+              <span class="titulo-item">POLO HARVEST PARA NIÑA MANGA LARGA ALGODÓN DOBLE</span>
+              <img src="<%= request.getContextPath() %>/Img/NIÑAS/nina3.jpeg" alt="" class="img-item">
+              <span class="precio-item">S/29.99 soles</span>
               <h2>Talla S-M-L</h2>
               <button class="boton-item">Agregar al Carrito</button>
           </div>
           <div class="item">
-              <span class="titulo-item">POLO HARVEST PARA NIÑO ALGODÓN MANGA CORTA</span>
-              <img src="<%= request.getContextPath() %>/Img/NIÑOS/Nino2.jpeg" alt="" class="img-item">
-              <span class="precio-item">S/19.99 soles</span>
+              <span class="titulo-item">CASACA HARVEST PARA NIÑA LIGHT</span>
+              <img src="<%= request.getContextPath() %>/Img/NIÑAS/nina2.jpeg" alt="" class="img-item">
+              <span class="precio-item">S/67.50 soles</span>
               <h2>Talla S-M-L</h2>
               <button class="boton-item">Agregar al Carrito</button>
           </div>
           <div class="item">
-              <span class="titulo-item">PANTALÓN DE BUZO HARVEST PARA NIÑO</span>
-              <img src="<%= request.getContextPath() %>/Img/NIÑOS/Nino3.jpeg" alt="" class="img-item">
-              <span class="precio-item">S/24.99 soles</span>
+              <span class="titulo-item">CONJUNTO HARVEST PARA NIÑA SET RIB</span>
+              <img src="<%= request.getContextPath() %>/Img/NIÑAS/Nina1.jpeg" alt="" class="img-item">
+              <span class="precio-item">S/59.99 soles</span>
               <h2>Talla S-M-L</h2>
               <button class="boton-item">Agregar al Carrito</button>
           </div>
           <div class="item">
-            <span class="titulo-item">Casaca Harvest light</span>
-            <img src="<%= request.getContextPath() %>/Img/NIÑOS/CASACA HARVEST LIGHT.png" alt="" class="img-item">
-            <span class="precio-item">S/80.00 soles</span>
+            <span class="titulo-item">Casaca harvest block</span>
+            <img src="<%= request.getContextPath() %>/Img/NIÑAS/CASACA HARVEST BLOCK.png" alt="" class="img-item">
+            <span class="precio-item">S/70.00 soles</span>
             <h2>Talla S-M-L</h2>
             <button class="boton-item">Agregar al Carrito</button>
         </div>
         <div class="item">
-          <span class="titulo-item">casaca Next padded</span>
-          <img src="<%= request.getContextPath() %>/Img/NIÑOS/CASACA NEXT PADDED.png" alt="" class="img-item">
+          <span class="titulo-item">Polera Revup con capucha</span>
+          <img src="<%= request.getContextPath() %>/Img/NIÑAS/POLERA REVUP CON CAPUCHA.png" alt="" class="img-item">
           <span class="precio-item">S/90.00 soles</span>
           <h2>Talla S-M-L</h2>
           <button class="boton-item">Agregar al Carrito</button>
       </div>
       <div class="item">
-          <span class="titulo-item">Polera con Capucha Harvest</span>
-          <img src="<%= request.getContextPath() %>/Img/NIÑOS/POLERA CON CAPUCHA HARVEST.png" alt="" class="img-item">
-          <span class="precio-item">S/38.00 soles</span>
+          <span class="titulo-item">Pijama Index Polar Vibes</span>
+          <img src="<%= request.getContextPath() %>/Img/NIÑAS/PIJAMA INDEX POLAR VIBES.png" alt="" class="img-item">
+          <span class="precio-item">S/124.00 soles</span>
           <h2>Talla S-M-L</h2>
           <button class="boton-item">Agregar al Carrito</button>
       </div>
       <div class="item">
-          <span class="titulo-item">Polera cuello redondo</span>
-          <img src="<%= request.getContextPath() %>/Img/NIÑOS/POLERA CUELLO REDONDO HARVEST.png" alt="" class="img-item">
-          <span class="precio-item">S/40.00 soles</span>
+          <span class="titulo-item">Polo index algodon</span>
+          <img src="<%= request.getContextPath() %>/Img/NIÑAS/POLO INDEX ALGODON.png" alt="" class="img-item">
+          <span class="precio-item">S/30.00 soles</span>
           <h2>Talla S-M-L</h2>
           <button class="boton-item">Agregar al Carrito</button>
       </div>
       <div class="item">
-          <span class="titulo-item">pijama Harvest franela game</span>
-          <img src="<%= request.getContextPath() %>/Img/NIÑOS/PIJAMA HARVEST FRANELA GAME.png" alt="" class="img-item">
-          <span class="precio-item">S/70.00 soles</span>
+          <span class="titulo-item">Jean pionier jogger</span>
+          <img src="<%= request.getContextPath() %>/Img/NIÑAS/JEAN PIONIER JOGGER.png" alt="" class="img-item">
+          <span class="precio-item">S/120.00 soles</span>
           <h2>Talla S-M-L</h2>
           <button class="boton-item">Agregar al Carrito</button>
       </div>
       <div class="item">
-          <span class="titulo-item">Pantalon de buzo Harvest</span>
-          <img src="<%= request.getContextPath() %>/Img/NIÑOS/PANTALON DE BUZO HARVEST.png" alt="" class="img-item">
-          <span class="precio-item">S/50.00 soles</span>
+          <span class="titulo-item">Poncho Harvest tejido Flecos</span>
+          <img src="<%= request.getContextPath() %>/Img/NIÑAS/PONCHO HARVEST TEJIDO FLECOS.png" alt="" class="img-item">
+          <span class="precio-item">S/55.00 soles</span>
           <h2>Talla S-M-L</h2>
           <button class="boton-item">Agregar al Carrito</button>
       </div>
@@ -128,8 +128,6 @@
           </div>
       </div>
   </section>
-
-
 
 
 </body>
