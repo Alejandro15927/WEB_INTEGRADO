@@ -32,7 +32,7 @@ public class Login extends HttpServlet {
         ResultSet rs = null;
 
         try {
-            String query = "SELECT * FROM users WHERE correo = ? AND passwords = ?";
+            String query = "SELECT * FROM usuarios WHERE correo = ? AND password = ?";
             stmt = conexion.prepareStatement(query);
             stmt.setString(1, correo);
             stmt.setString(2, password);

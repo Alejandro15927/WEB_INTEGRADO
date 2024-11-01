@@ -36,8 +36,8 @@
             <a href="nosotros.jsp">Nosotros</a>
             <a href="contacto.jsp">Contacto</a>
             <a href="#">Catalogo</a>
-            <a href="registro-login.php">Registrate</a>
-            <a href="login.php"><i class="material-icons" style="font-size:25px">shopping_basket</i></a>
+            <a href="registro-login.jsp">Registrate</a>
+            <a href="login.jsp"><i class="material-icons" style="font-size:25px">shopping_basket</i></a>
         </nav>
 
     </div>
