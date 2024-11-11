@@ -73,7 +73,7 @@ public class Registrar extends HttpServlet {
         PreparedStatement stmt = null;
 
         try {
-            String query = "INSERT INTO users (nombres, apellidos, dni, telefono, correo, password) VALUES (?, ?, ?, ?, ?, ?)";
+            String query = "INSERT INTO usuarios (nombres, apellidos, dni, telefono, correo, password) VALUES (?, ?, ?, ?, ?, ?)";
             stmt = conexion.prepareStatement(query);
             stmt.setString(1, nom_usuario);
             stmt.setString(2, ape_usuario);
