@@ -9,8 +9,13 @@ public class conexionBD {
    private static final String URL = "jdbc:mysql://localhost:3306/bd_tiendaropa";
    private static final String USER = "root";
    private static final String PASSWORD = "";
+   private static Connection mockConnection;
 
    public static Connection obtenerConexion() {
+       if (mockConnection != null) {
+           return mockConnection;
+       }
+
        Connection conexion = null;
        try {
            Class.forName("com.mysql.cj.jdbc.Driver");
@@ -24,5 +29,13 @@ public class conexionBD {
            System.err.println("Error inesperado: " + e.getMessage());
        }
        return conexion;
+   }
+
+   public static void setConnection(Connection connection) {
+       mockConnection = connection;
+   }
+
+   public static void clearConnection() {
+       mockConnection = null;
    }
 }

@@ -1,0 +1,4 @@
+Tests\ValidacionesRegistroTest.class
+Tests\conexionBDTest.class
+Tests\LoginTest.class
+Tests\ValidacionesRegistro.class

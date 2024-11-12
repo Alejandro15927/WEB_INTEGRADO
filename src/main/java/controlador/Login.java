@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns = {"/Login"})
 
 public class Login extends HttpServlet {
-   protected void doPost(HttpServletRequest request, HttpServletResponse response) 
+   public void doPost(HttpServletRequest request, HttpServletResponse response) 
         throws ServletException, IOException {
         String correo = request.getParameter("correo");
         String password = request.getParameter("password");
