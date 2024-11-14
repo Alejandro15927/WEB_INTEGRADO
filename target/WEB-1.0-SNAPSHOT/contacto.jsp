@@ -57,16 +57,12 @@
               </i>Lima, Perú</a><br></br>
 
 
-              <form action="" method="post" enctype="multipart/form-data" style="width:50vw; min-width:300px;">
+              <form id="form" action="Contacto" method="post" style="width:50vw; min-width:300px;">
                 <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
                 <input type="email" name="correo" placeholder="Tu Email" class="campo">
                 <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
                 <button type="submit" class="btn-enviar" name="submit">Enviar</button>
-
-
-
-
-            </form>
+              </form>
         </div>
       <div class="mapa">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.3839720954775!2d-76.96871478703234!3d-12.154241103349422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b9248222ac81%3A0xabdbeb8034b42c70!2sCiudad%20de%20Dios!5e0!3m2!1ses-419!2spe!4v1683287497745!5m2!1ses-419!2spe" width="450" height="550"  style="border-color: brown; border-radius: 40px;  box-shadow: 3px 3px 5px #999;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
